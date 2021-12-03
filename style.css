@@ -1,0 +1,105 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f7f8fc;
+  display: grid;
+}
+
+img {
+  max-width: 100%;
+}
+
+.card {
+  margin: auto;
+  max-width: 500px;
+  height: 258px;
+  background-color: #fff;
+  border: 1px solid #78909c26;
+  border-radius: 14px;
+  display: flex;
+}
+
+.left-column {
+  width: 130px;
+  padding: 1.25rem 1rem;
+  background: linear-gradient(to right, #fdc830, #f37335);
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tag {
+  font-weight: 600;
+  font-size: 0.6rem;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #0000001a;
+  padding: 0.5rem 1rem;
+  border-radius: 14px;
+  line-height: 1;
+  transition: background-color 0.3s;
+}
+
+.tag:hover {
+  color: rgb(61, 72, 82);
+  background-color: #fff;
+}
+
+.img {
+  border-radius: 100%;
+}
+
+.difficulty {
+  font-weight: 600;
+  font-size: 0.6rem;
+  color: #fff;
+}
+
+.right-column {
+  padding: 1.25rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  font-size: 1rem;
+  font-weight: 400;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  margin-bottom: auto;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 0.8rem;
+  margin-top: 1.25rem;
+}
+
+.course-info {
+  color: #c2cad1;
+  font-size: 0.7rem;
+  display: flex;
+}
+
+.fas {
+  margin-right: 0.25rem;
+}
+
+.course-info-duration {
+  margin-right: 1rem;
+}
